@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="20" errors="0" failures="1" skip="0"><testcase classname="test_calculatorApp.TestCalculate" name="test_Add" time="0.001"><system-out><![CDATA[Setup .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_Divide1" time="0.000"><system-out><![CDATA[Setup .. 
+You can't divide by zero!
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_Divide2" time="0.000"><system-out><![CDATA[Setup .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_Divide3" time="0.000"><system-out><![CDATA[Setup .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_checkCalculate1" time="0.000"><system-out><![CDATA[Setup .. 
+You can't divide by zero!
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_checkCalculate2" time="0.000"><system-out><![CDATA[Setup .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_checkCalculate3" time="0.000"><system-out><![CDATA[Setup .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_checkCalculate4" time="0.001"><system-out><![CDATA[Setup .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_checkCalculate5" time="0.000"><system-out><![CDATA[Setup .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_checkCalculate6" time="0.000"><system-out><![CDATA[Setup .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_checkCalculate7" time="0.000"><system-out><![CDATA[Setup .. 
+inputs can not be null
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_checkUserInput1" time="0.000"><system-out><![CDATA[Setup .. 
+Input can't be empty
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_checkUserInput2" time="0.000"><system-out><![CDATA[Setup .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_checkUserInput3" time="0.000"><failure type="builtins.AssertionError" message="6 != 6.6&#10;-------------------- &gt;&gt; begin captured stdout &lt;&lt; ---------------------&#10;Setup .. &#10;&#10;--------------------- &gt;&gt; end captured stdout &lt;&lt; ----------------------"><![CDATA[  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1264.0_x64__qbz5n2kfra8p0\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1264.0_x64__qbz5n2kfra8p0\lib\unittest\case.py", line 591, in run
+    self._callTestMethod(testMethod)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1264.0_x64__qbz5n2kfra8p0\lib\unittest\case.py", line 549, in _callTestMethod
+    method()
+  File "C:\Users\DELL\Desktop\test\project\UnitTestInPython\test_calculatorApp.py", line 64, in test_checkUserInput3
+    self.assertEqual(check_user_input(6.6),6.6) ###################
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1264.0_x64__qbz5n2kfra8p0\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1264.0_x64__qbz5n2kfra8p0\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+6 != 6.6
+-------------------- >> begin captured stdout << ---------------------
+Setup .. 
+
+--------------------- >> end captured stdout << ----------------------]]></failure><system-out><![CDATA[Setup .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_checkUserInput4" time="0.000"><system-out><![CDATA[Setup .. 
+test input is not a number!
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_isExit1" time="0.000"><system-out><![CDATA[Setup .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_isExit2" time="0.000"><system-out><![CDATA[Setup .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_isExit3" time="0.000"><system-out><![CDATA[Setup .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_multiply" time="0.000"><system-out><![CDATA[Setup .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_subtract" time="0.000"><system-out><![CDATA[Setup .. 
+]]></system-out></testcase></testsuite>
