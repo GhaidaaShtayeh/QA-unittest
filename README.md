@@ -31,4 +31,4 @@
 
 # The minimal number of paths that achieve 100% code statement coverage
 
-20 Paths 
+## 20 
