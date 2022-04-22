@@ -29,3 +29,7 @@
 ![image](https://user-images.githubusercontent.com/79005401/164773888-32503f6b-6fb4-4813-bfe3-f267680163e6.png)
 
 ![image](https://user-images.githubusercontent.com/79005401/164780670-8a3c485e-b663-4fb8-b3bf-b05ee176e149.png)
+
+# The minimal number of paths that achieve 100% code statement coverage
+
+20 Paths 
