@@ -26,7 +26,6 @@
 ![image](https://user-images.githubusercontent.com/79005401/164779948-b10b3b07-c3d8-4fa3-983e-b05a5535d63e.png)
 
 [A code coverage report](https://github.com/GhaidaaShtayeh/QA-unittest/blob/master/nosetests.xml)
-![image](https://user-images.githubusercontent.com/79005401/164773888-32503f6b-6fb4-4813-bfe3-f267680163e6.png)
 
 ![image](https://user-images.githubusercontent.com/79005401/164780670-8a3c485e-b663-4fb8-b3bf-b05ee176e149.png)
 
