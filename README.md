@@ -20,3 +20,10 @@
 # The full list of all independent paths for each method
 
 [independent paths for each method](https://docs.google.com/document/d/1H9hUYw5c1vW1sj7fyks7Hsh4788qDaHB_jZMoybhSbY/edit?usp=sharing)
+
+
+[ A test cases run report](https://github.com/GhaidaaShtayeh/QA-unittest/tree/master/htmlcov)
+
+
+[A code coverage report](https://github.com/GhaidaaShtayeh/QA-unittest/blob/master/nosetests.xml)
+
