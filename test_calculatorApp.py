@@ -1,6 +1,5 @@
 from ast import Add
 from asyncio.windows_events import NULL
-from contextlib import nullcontext
 from decimal import DivisionUndefined
 import unittest
 from unittest import mock
@@ -12,12 +11,8 @@ import calculatorApp
 class TestCalculate(unittest.TestCase):
     def setUp(self):
         print("Setup .. ")
-        
 
-
-
-
-    #add : 
+   #add : 
     def test_Add(self):
         self.assertEqual(add(2,3), 5)
         
@@ -61,7 +56,7 @@ class TestCalculate(unittest.TestCase):
         self.assertEqual(check_user_input(5), 5)
     
     def test_checkUserInput3(self):
-        self.assertEqual(check_user_input(6.6),6.6) ###################
+        self.assertEqual(check_user_input("6.6"),6.6) ###################
         
     def test_checkUserInput4(self):
         self.assertRaises(ValueError, check_user_input, "test")    
@@ -75,7 +70,7 @@ class TestCalculate(unittest.TestCase):
         self.assertRaises(ZeroDivisionError, calculate ,"4",'5','0') ################################
         
     def test_checkCalculate2(self):
-        self.assertRaises(Exception, calculate, (6,1,2))
+        self.assertRaises(Exception, calculate, "6",1,2)
       
     def test_checkCalculate3(self):
         with mock.patch('calculatorApp.add', return_value = 6):
@@ -98,12 +93,10 @@ class TestCalculate(unittest.TestCase):
         self.assertEqual(result, (5,'/',5,'=',1))
             
     def test_checkCalculate7(self):
-        self.assertRaises(ValueError,calculate ,4, NULL, 5)
+        self.assertRaises(ValueError,calculate ,"4", NULL, 5)
         
-        
-        
+
+ 
 if __name__ == '__main__':
 	unittest.main()
  
- 
- #test_calculatorApp
