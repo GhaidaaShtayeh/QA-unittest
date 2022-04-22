@@ -23,7 +23,9 @@
 
 
 [ A test cases run report](https://github.com/GhaidaaShtayeh/QA-unittest/tree/master/htmlcov)
+![image](https://user-images.githubusercontent.com/79005401/164773842-89e1280d-ef10-491f-9871-35d2fceea3d5.png)
 
 
 [A code coverage report](https://github.com/GhaidaaShtayeh/QA-unittest/blob/master/nosetests.xml)
+![image](https://user-images.githubusercontent.com/79005401/164773888-32503f6b-6fb4-4813-bfe3-f267680163e6.png)
 
